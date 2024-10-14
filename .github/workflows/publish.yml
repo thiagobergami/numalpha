@@ -13,10 +13,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
+    - name: Node
+      uses: actions/setup-node@v4
       with:
-        node-version: '16' # Specify the version of Node.js you want to use
+        node-version: '20.16.0'
+        registry-url: https://registry.npmjs.org/
 
     - name: Install dependencies
       run: npm install
