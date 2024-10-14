@@ -1,5 +1,8 @@
-const find = require('./lib/find');
+const findNumber = require('./lib/findNumber');
+const findLetter = require('./lib/findLetter')
+
 
 module.exports = {
-    find
+    findNumber,
+    findLetter
 }
