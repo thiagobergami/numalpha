@@ -1,0 +1,48 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# Icon?
+ehthumbs.db
+Thumbs.db
+
+# Node files
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.*.json
+*.tgz
+yarn.lock
+.nvmrc
+
+# IDE config
+.vscode
+
+/package-lock.json
+/.gitattributes
+/.gitignore
+/.github
+/.editorconfig
+/.prettierrc.yaml
+/.prettierignore
+/babel.config.mjs
+/eslint.config.mjs
+/tsconfig.json
+/tsconfig.eslint.json
+/spec
+/src
+
+/dts/**/*.test.d.ts
+/esm/**/*.test.mjs
+/esm/**/*.test.mjs.map
+/cjs/**/*.test.js
+/cjs/**/*.test.js.map
+
+/dts/**/*.spec.d.ts
+/esm/**/*.spec.mjs
+/esm/**/*.spec.mjs.map
+/cjs/**/*.spec.js
+/cjs/**/*.spec.js.map

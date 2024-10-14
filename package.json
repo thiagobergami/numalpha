@@ -1,0 +1,25 @@
+{
+  "name": "numalpha",
+  "version": "1.0.0",
+  "description": "Tired of figuring out the postion of letters in the English Alpahbet? Try numalpha!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagobergami/numaplha.git"
+  },
+  "author": "Thiago B. Guedes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagobergami/numaplha/issues"
+  },
+  "homepage": "https://github.com/thiagobergami/numaplha#readme",
+  "dependencies": {
+    "assert": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
