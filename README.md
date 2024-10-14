@@ -1,4 +1,4 @@
-# Num Aplpha
+# Num Alpha
 
 A simple utility library for finding the position of letters in the English alphabet and retrieving letters based on their positions.
 
