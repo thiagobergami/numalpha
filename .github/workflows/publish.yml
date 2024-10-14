@@ -22,8 +22,19 @@ jobs:
     - name: Install dependencies
       run: npm install
     
+    - name: Configure Git
+      run: |
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+    
     - name: Update npm version
       run: npm version patch 
+    
+    - name: Push changes
+      run: |
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Publish to npm
       run: npm publish --access=public
