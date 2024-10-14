@@ -1,6 +1,6 @@
 {
   "name": "numalpha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tired of figuring out the postion of letters in the English Alpahbet? Try numalpha!",
   "main": "src/index.js",
   "scripts": {
